@@ -1,0 +1,148 @@
+body {
+    background-color: #0c131c;
+    color: #577db2;
+}
+h2 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+p {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    opacity: 0.15;
+    background-color: #fff;
+    margin: 1rem  0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: #01fff8;
+}
+
+/* card  */
+.container {
+    position: relative;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: #141c28;
+    width: 15rem;
+    height: 26rem;
+    border-radius: 3%;
+    padding: 1% 1%;
+}
+
+/* header section  */
+.header {
+    position: relative;
+    border-radius: 4%;
+    background-color: #01fff8;
+}
+.img-heading{
+    width: 100%;
+    border-radius: 3%;
+    display: block;
+    height: auto;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.img-heading img{
+    width: 100%;
+    border-radius: 3%;
+    display: block;
+    height: auto;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.hover-head {
+    transition: .5s ease;
+    text-align: center;
+    position: absolute;
+    bottom: 38%;
+    left: 40%;
+    opacity: 0;
+}
+
+.header:hover .img-heading {
+    opacity: 0.6;
+}
+
+.header:hover .hover-head {
+    opacity: 1;
+}
+
+/* main section */
+.etherum, .clock {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+.clock {
+    margin-left: 6rem;
+}
+
+.etherum {
+    color: #01fff8;
+}
+
+.icon-feature {
+    margin-right: 3px;
+    display: inline-block;
+}
+
+
+/* bootom card  */
+
+
+.bottom-card {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.avatar-text {
+    display: inline-block;
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.avatar-img {
+    width: 10%;
+    float: left;
+    margin-right: 4%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+/* footer section  */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* mobile responsive  */
+
+@media (max-width: 1440px) {
+    .container {
+        position: static;
+        width: 15rem;
+        height: 26rem;
+        padding: 0.8rem;
+    }
+}
